@@ -1,0 +1,38 @@
+#main{
+    margin:  0 auto;
+    width: 50vw;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+#city-search div{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+#time{
+    font-size: 10px;
+    padding-top: 0px;
+    margin-top:0px;
+}
+
+.tempSelector{
+    display: none;
+}
+.tempSelector + label{
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    padding: 3px 4px;
+    margin-left: 10px;
+}
+.tempSelector + label:hover{
+    background-color: rgba(127, 63, 191, 0.2);
+}
+.tempSelector:checked + label{
+    border-style: dashed;
+    border-width: 2px;
+    padding: 1px 2px;
+}
